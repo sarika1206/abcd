@@ -1,0 +1,7 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+-   repo: /Users/gsarika/test/local/pre-commit-hooks #git@github.com:pre-commit/pre-commit-hooks.git
+    rev: v3.2.0
+    hooks:
+    -   id: test-hook
