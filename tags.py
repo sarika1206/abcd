@@ -57,7 +57,7 @@ if __name__ == "__main__":
     stdout = subprocess.check_output(cmd, shell=True, text=True, cwd="/Users/gsarika/test/abcd") #os.PathLike)
     lines = stdout.splitlines()
     tags = [line.rstrip() for line in lines if line.rstrip()]
-    print(tags[0])
+#    print(tags[0])
     tag = tags[0]
     version = tag
     match = _regex.search(version)
